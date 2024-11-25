@@ -30,6 +30,8 @@ The following table provides a detailed list of all tables materialized within t
 | [apple_search_ads__keyword_report](https://fivetran.github.io/dbt_apple_search_ads/#!/model/model.apple_search_ads.apple_search_ads__keyword_report)            | Each record in this table represents the daily performance at the ad group level for keywords. |
 | [apple_search_ads__search_term_report](https://fivetran.github.io/dbt_apple_search_ads/#!/model/model.apple_search_ads.apple_search_ads__keyword_report)            | Each record in this table represents the daily performance at the ad group level for search term report. |
 
+### Materialized Models
+Each transformation job run materializes **26** models if you enable all components of this data model. This count includes all staging, intermediate, and final models materialized as either `view` or `table`.
 <!--section-end-->
 
 ## How do I use the dbt package?
